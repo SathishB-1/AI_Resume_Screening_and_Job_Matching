@@ -1,0 +1,8 @@
+flask
+pandas
+numpy
+scikit-learn
+spacy
+sentence-transformers
+torch
+PyPDF2
