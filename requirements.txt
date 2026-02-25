@@ -1,8 +1,6 @@
 flask
-pandas
-numpy
+sentence-transformers
 scikit-learn
 spacy
-sentence-transformers
-torch
-PyPDF2
+pandas
+numpy
