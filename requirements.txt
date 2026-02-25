@@ -4,3 +4,4 @@ scikit-learn
 spacy
 pandas
 numpy
+PyPDF2
