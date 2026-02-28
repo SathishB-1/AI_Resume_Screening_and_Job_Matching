@@ -14,7 +14,7 @@ model = SentenceTransformer(
 )
 
 df = pd.read_pickle("job_data.pkl")
-job_embeddings = np.load("job_embeddings_small.npy")
+job_embeddings = np.load("job_embeddings.npy")
 
 
 @app.route("/", methods=["GET", "POST"])
