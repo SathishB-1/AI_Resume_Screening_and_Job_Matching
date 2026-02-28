@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.ipynb
+.git
+.gitignore
+node_modules
+.cache
+models/
