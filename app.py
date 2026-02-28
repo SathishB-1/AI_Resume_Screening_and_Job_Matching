@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
 df = pd.read_pickle("job_data (1).pkl")
-job_embeddings = np.load("job_embeddings (1).npy")
+job_embeddings = np.load("job_embeddings.npy")
 
 
 @app.route("/", methods=["GET", "POST"])
