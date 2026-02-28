@@ -1,7 +1,6 @@
 flask
-sentence-transformers
-scikit-learn
-spacy
-pandas
 numpy
+pandas
+scikit-learn
+sentence-transformers
 PyPDF2
