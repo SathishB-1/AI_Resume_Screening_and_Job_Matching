@@ -8,7 +8,7 @@ import PyPDF2
 app = Flask(__name__)
 
 model = SentenceTransformer('all-MiniLM-L6-v2')
-df = pd.read_pickle("job_data (1).pkl")
+df = pd.read_pickle("job_data.pkl")
 job_embeddings = np.load("job_embeddings.npy")
 
 
